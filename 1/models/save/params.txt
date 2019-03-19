@@ -1,0 +1,11 @@
+Environment: ShortTrack1553021057.2969518
+seed: None
+actions: {0: [-1, 0, 0], 1: [1, 0, 0], 2: [0, 1, 0], 3: [0, 0, 0.8], 4: [0, 0, 0]}
+Architecture: 2 dense layers of size 128 and 128
+Explore Rate: max(0.1, 0.5* (1 - 2 * float(training_metadata.episode) / training_metadata.num_episodes))
+Learning Rate: 0.00025
+Discount: 0.99
+Batch Size: 32
+Memory Capacity: 100000
+Num Episodes: 3000
+Learning Rate Drop Frame Limit: 250000

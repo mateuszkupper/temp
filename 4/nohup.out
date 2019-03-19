@@ -1,0 +1,14 @@
+2019-03-16 10:48:23.359184: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-03-16 10:48:23.366184: I tensorflow/core/common_runtime/process_util.cc:69] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+model using cpu
+input dropout mode = False
+output dropout mode = False
+recurrent dropout mode = False
+Track generation: 1097..1375 -> 278-tiles track
+Episode 61/3000 	 Epsilon: 1.0 	 Alpha: 0.00025
+XIO:  fatal IO error 22 (Invalid argument) on X server ":1081"
+      after 140 requests (131 known processed) with 0 events remaining.
+2019-03-16 10:50:08.534492: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-03-16 10:50:08.541411: I tensorflow/core/common_runtime/process_util.cc:69] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+XIO:  fatal IO error 0 (Success) on X server ":1081"
+      after 134 requests (131 known processed) with 4 events remaining.
